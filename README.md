@@ -6,11 +6,11 @@
 
 - HTML;
 - Grid,flex;
-- JavaScript;
+- JavaScript
 
 ## GitHub Pages
 
-
+https://sasha-bu.github.io/mesto/
 
 ## Благодарности
 

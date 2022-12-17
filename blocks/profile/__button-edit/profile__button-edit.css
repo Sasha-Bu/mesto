@@ -17,12 +17,19 @@
   opacity: 0.6;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 710px) {
   .profile__button-edit {
     position: absolute;
-    top: 33px;
-    left: 200px;
+    top: 32px;
+    left: 205px;
     width: 18px;
     height: 18px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .profile__button-edit {
+    top: 33px;
+    left: 200px;
   }
 }

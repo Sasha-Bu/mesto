@@ -10,6 +10,12 @@
   padding: 0;
 }
 
+@media screen and (max-width: 879px) {
+  .places {
+    justify-content: center;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .places {
     max-width: 282px;

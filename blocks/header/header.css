@@ -6,6 +6,12 @@
   border-color: rgb(84, 84, 84, 0.7);
 }
 
+@media screen and (max-width: 1000px) {
+  .header {
+    max-width: 90%;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .header {
     max-width: 320px;

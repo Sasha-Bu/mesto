@@ -7,6 +7,7 @@ let nameInput = document.querySelector(".form__item_name");
 let jobInput = document.querySelector(".form__item_job");
 let formItemName = document.querySelector(".profile__title");
 let formItemJob = document.querySelector(".profile__job");
+let buttonHeart = document.querySelector(".place__button-heart");
 
 openPopUp.addEventListener("click", () => {
   popUp.classList.add("pop-up_opened");

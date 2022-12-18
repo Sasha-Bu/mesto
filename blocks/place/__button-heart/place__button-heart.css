@@ -11,6 +11,6 @@
   cursor: pointer;
 }
 
-.place__button-heart:hover{
+.place__button-heart:hover {
   opacity: 0.5;
 }

@@ -12,7 +12,7 @@
 }
 
 @media screen and (max-width: 550px) {
-.form__item {
-  min-width: 238px;
+  .form__item {
+    min-width: 238px;
   }
 }

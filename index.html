@@ -17,10 +17,10 @@
       <img class="profile__photo" src="./images/__photo_Kusto.jpg" alt="Фото профиля">
       <div class="profile__info">
         <h1 class="profile__title">Жак-Ив-Кусто</h1>
-        <button class="profile__button-edit"></button>
         <p class="profile__job">Исследователь океана</p>
       </div>
-      <button class="profile__button-add"></button>
+      <button class="profile__button-edit" type="button"></button>
+      <button class="profile__button-add" type="button"></button>
     </section>
     <section>
       <ul class="places">
@@ -28,42 +28,42 @@
           <img class="place__image" src="./images/__image_dagestan.jpg" alt="Дагестан">
           <div class="place__item">
             <h2 class="place__title">Дагестан</h2>
-            <button class="place__button-heart place__button-heart_active"></button>
+            <button class="place__button-heart place__button-heart_active" type="button"></button>
           </div>
         </li>
         <li class="place">
           <img class="place__image" src="./images/__image_dombay.jpg" alt="Домбай">
           <div class="place__item">
             <h2 class="place__title">Домбай</h2>
-            <button class="place__button-heart"></button>
+            <button class="place__button-heart" type="button"></button>
           </div>
         </li>
         <li class="place">
           <img class="place__image" src="./images/__image_elbrus.jpg" alt="Гора Эльбрус">
           <div class="place__item">
             <h2 class="place__title">Гора Эльбрус</h2>
-            <button class="place__button-heart"></button>
+            <button class="place__button-heart" type="button"></button>
           </div>
         </li>
         <li class="place">
           <img class="place__image" src="./images/__image_kamchatka.jpg" alt="Камчатка">
           <div class="place__item">
             <h2 class="place__title">Камчатка</h2>
-            <button class="place__button-heart"></button>
+            <button class="place__button-heart" type="button"></button>
           </div>
         </li>
         <li class="place">
           <img class="place__image" src="./images/__image_baykal.jpg" alt="Байкал">
           <div class="place__item">
             <h2 class="place__title">Озеро Байкал</h2>
-            <button class="place__button-heart"></button>
+            <button class="place__button-heart" type="button"></button>
           </div>
         </li>
         <li class="place">
           <img class="place__image" src="./images/__image_kurilIslans.jpg" alt="Курильские Острова">
           <div class="place__item">
             <h2 class="place__title">Курильские Острова</h2>
-            <button class="place__button-heart"></button>
+            <button class="place__button-heart" type="button"></button>
           </div>
         </li>
       </ul>
@@ -72,14 +72,14 @@
   <footer class="footer">
     <p class="footer__copyright"> &copy; 2022 Mesto Russia</p>
   </footer>
-  <section class="pop-up">
-    <div class="pop-up__container">
-      <button class="pop-up__button-close"></button>
-      <h2 class="pop-up__container-title">Редактировать профиль</h2>
-      <form class="form">
+  <section class="popup">
+    <div class="popup__container">
+      <button class="popup__button-close" type="button"></button>
+      <h2 class="popup__container-title">Редактировать профиль</h2>
+      <form class="form" name="form">
         <input type="text" name="name" class="form__item form__item_name" placeholder="Полное имя">
         <input type="text" name="job" class="form__item form__item_job" placeholder="О себе">
-        <input type="submit" class="pop-up__button-save" value="Сохранить">
+        <input type="submit" class="popup__button-save" value="Сохранить">
       </form>
     </div>
   </section>

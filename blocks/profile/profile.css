@@ -14,16 +14,11 @@
 
 @media screen and (max-width: 710px) {
   .profile {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .profile {
-  max-width: 282px;
-  min-height: 286px;
-  margin: 42px auto 0;
+    max-width: 282px;
+    min-height: 286px;
+    margin: 42px auto 0;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
   }
 }

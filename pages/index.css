@@ -27,12 +27,12 @@
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 
-@import url(../blocks/pop-up/pop-up.css);
-@import url(../blocks/pop-up/_opened/pop-up_opened.css);
-@import url(../blocks/pop-up/__button-close/pop-up__button-close.css);
-@import url(../blocks/pop-up/__container/pop-up__container.css);
-@import url(../blocks/pop-up/__container-title/pop-up__container-title.css);
-@import url(../blocks/pop-up/__button-save/pop-up__button-save.css);
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/_opened/popup_opened.css);
+@import url(../blocks/popup/__button-close/popup__button-close.css);
+@import url(../blocks/popup/__container/popup__container.css);
+@import url(../blocks/popup/__container-title/popup__container-title.css);
+@import url(../blocks/popup/__button-save/popup__button-save.css);
 
 @import url(../blocks/form/form.css);
 @import url(../blocks/form/__item/form__item.css);

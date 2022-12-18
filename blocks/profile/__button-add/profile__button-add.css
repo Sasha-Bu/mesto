@@ -10,9 +10,10 @@
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
+  border-radius: 2px;
 }
 
-.profile__button-add:hover{
+.profile__button-add:hover {
   opacity: 0.6;
 }
 

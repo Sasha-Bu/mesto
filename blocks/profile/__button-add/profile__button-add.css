@@ -28,6 +28,7 @@
   .profile__button-add {
     background-image: url("../../../images/__button-add-mobile.svg");
     width: 282px;
+    height: 50px;
     margin: 32px auto 0;
   }
 }

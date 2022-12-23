@@ -16,6 +16,7 @@
 @import url(../blocks/profile/__button-add/profile__button-add.css);
 
 @import url(../blocks/places/places.css);
+@import url(../blocks/places/__list/places__list.css);
 
 @import url(../blocks/place/place.css);
 @import url(../blocks/place/__item/place__item.css);

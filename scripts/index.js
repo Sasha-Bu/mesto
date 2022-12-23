@@ -1,36 +1,27 @@
-const popUp = document.querySelector(".popup");
-const openPopUp = document.querySelector(".profile__button-edit");
-const closePopUp = document.querySelector(".popup__button-close");
-const savePopUp = document.querySelector(".popup__button-save");
-const form = document.querySelector(".form");
-let nameInput = document.querySelector(".form__item_name");
-let jobInput = document.querySelector(".form__item_job");
-let formItemName = document.querySelector(".profile__title");
-let formItemJob = document.querySelector(".profile__job");
-let buttonHeart = document.querySelector(".place__button-heart");
+const popup = document.querySelector('.popup');
+const openPopup = document.querySelector('.profile__button-edit');
+const closePopup = document.querySelector('.popup__button-close');
+const form = document.querySelector('.form');
+let nameInput = document.querySelector('.popup__input_data_name');
+let jobInput = document.querySelector('.popup__input_data_job');
+let profileName = document.querySelector('.profile__title');
+let profileJob = document.querySelector('.profile__job');
 
-function HandleformSubmit(evt) {
+function handleformSubmit(evt) {
   evt.preventDefault();
-
-  formItemName.textContent = nameInput.value;
-  formItemJob.textContent = jobInput.value;
+  profileName.textContent = nameInput.value;
+  profileJob.textContent = jobInput.value;
+  popup.classList.remove('popup_opened');
 }
 
-openPopUp.addEventListener("click", () => {
-  popUp.classList.add("popup_opened");
-})
-
-openPopUp.addEventListener("click", () => {
-  nameInput.value = formItemName.textContent;
-  jobInput.value = formItemJob.textContent;
+openPopup.addEventListener('click', () => {
+  nameInput.value = profileName.textContent;
+  jobInput.value = profileJob.textContent;
+  popup.classList.add('popup_opened');
 });
 
-closePopUp.addEventListener("click", () => {
-  popUp.classList.remove("popup_opened");
+closePopup.addEventListener('click', () => {
+  popup.classList.remove('popup_opened');
 });
 
-savePopUp.addEventListener("click", () => {
-  popUp.classList.remove("popup_opened");
-});
-
-form.addEventListener("submit", HandleformSubmit);
+form.addEventListener('submit', handleformSubmit);

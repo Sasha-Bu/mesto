@@ -5,7 +5,7 @@
   border: none;
   background-color: #FFFFFF;
   padding: 0;
-  margin: 5px 2px 1px 0;
+  margin: 4px 0px 1px 0;
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
@@ -13,4 +13,10 @@
 
 .place__button-heart:hover {
   opacity: 0.5;
+}
+
+@media screen and (max-width: 550px) {
+  .place__button-heart {
+    margin: 2px 0px 1px 0;
+  }
 }

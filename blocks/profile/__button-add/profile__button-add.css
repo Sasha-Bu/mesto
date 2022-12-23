@@ -17,8 +17,9 @@
   opacity: 0.6;
 }
 
-@media screen and (max-width: 710px) {
+@media screen and (max-width: 720px) {
   .profile__button-add {
+    background-image: url("../../../images/__button-add-mobile.svg");
     width: 282px;
     margin: 32px auto 0;
   }
